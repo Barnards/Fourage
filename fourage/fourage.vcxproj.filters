@@ -27,9 +27,15 @@
     <ClInclude Include="src\fourage\entry_point.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\fourage\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\fourage\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fourage\log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
